@@ -1,6 +1,14 @@
 // Exercise 14: Write a function named 'mergeArrays' that takes two arrays and returns a new array that combines the elements of both arrays, alternating between them.
 
 function mergeArrays(arr1, arr2) {
+  
+  let merging = []
+
+  for(let x = 0; x < arr1.length; x++) {
+    merging.push(arr1[x], arr2[x])
+  }
+  
+  return merging
   // your code here
 }
 
